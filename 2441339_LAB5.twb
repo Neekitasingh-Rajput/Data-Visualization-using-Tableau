@@ -1,0 +1,2028 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='finalapi (Insurance_Dataset)' inline='true' name='federated.12kr0yl0p4qctj1190d1v0q4m1c9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Insurance_Dataset' name='excel-direct.00u47k40z2dg1215wapnb1xppc77'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Neekitasingh Rajput/Downloads/Insurance_Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.00u47k40z2dg1215wapnb1xppc77' name='finalapi' table='[finalapi$]' type='table'>
+          <columns gridOrigin='A1:AW10001:no:A1:AW10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='AGENCY_ID' ordinal='0' />
+            <column datatype='integer' name='PRIMARY_AGENCY_ID' ordinal='1' />
+            <column datatype='string' name='PROD_ABBR' ordinal='2' />
+            <column datatype='string' name='PROD_LINE' ordinal='3' />
+            <column datatype='string' name='STATE_ABBR' ordinal='4' />
+            <column datatype='integer' name='STAT_PROFILE_DATE_YEAR' ordinal='5' />
+            <column datatype='integer' name='RETENTION_POLY_QTY' ordinal='6' />
+            <column datatype='integer' name='POLY_INFORCE_QTY' ordinal='7' />
+            <column datatype='integer' name='PREV_POLY_INFORCE_QTY' ordinal='8' />
+            <column datatype='real' name='NB_WRTN_PREM_AMT' ordinal='9' />
+            <column datatype='real' name='WRTN_PREM_AMT' ordinal='10' />
+            <column datatype='real' name='PREV_WRTN_PREM_AMT' ordinal='11' />
+            <column datatype='real' name='PRD_ERND_PREM_AMT' ordinal='12' />
+            <column datatype='real' name='PRD_INCRD_LOSSES_AMT' ordinal='13' />
+            <column datatype='integer' name='MONTHS' ordinal='14' />
+            <column datatype='real' name='RETENTION_RATIO' ordinal='15' />
+            <column datatype='real' name='LOSS_RATIO' ordinal='16' />
+            <column datatype='real' name='LOSS_RATIO_3YR' ordinal='17' />
+            <column datatype='real' name='GROWTH_RATE_3YR' ordinal='18' />
+            <column datatype='integer' name='AGENCY_APPOINTMENT_YEAR' ordinal='19' />
+            <column datatype='integer' name='ACTIVE_PRODUCERS' ordinal='20' />
+            <column datatype='integer' name='MAX_AGE' ordinal='21' />
+            <column datatype='integer' name='MIN_AGE' ordinal='22' />
+            <column datatype='string' name='VENDOR_IND' ordinal='23' />
+            <column datatype='string' name='VENDOR' ordinal='24' />
+            <column datatype='integer' name='PL_START_YEAR' ordinal='25' />
+            <column datatype='integer' name='PL_END_YEAR' ordinal='26' />
+            <column datatype='integer' name='COMMISIONS_START_YEAR' ordinal='27' />
+            <column datatype='integer' name='COMMISIONS_END_YEAR' ordinal='28' />
+            <column datatype='integer' name='CL_START_YEAR' ordinal='29' />
+            <column datatype='integer' name='CL_END_YEAR' ordinal='30' />
+            <column datatype='integer' name='ACTIVITY_NOTES_START_YEAR' ordinal='31' />
+            <column datatype='integer' name='ACTIVITY_NOTES_END_YEAR' ordinal='32' />
+            <column datatype='integer' name='CL_BOUND_CT_MDS' ordinal='33' />
+            <column datatype='integer' name='CL_QUO_CT_MDS' ordinal='34' />
+            <column datatype='integer' name='CL_BOUND_CT_SBZ' ordinal='35' />
+            <column datatype='integer' name='CL_QUO_CT_SBZ' ordinal='36' />
+            <column datatype='integer' name='CL_BOUND_CT_eQT' ordinal='37' />
+            <column datatype='integer' name='CL_QUO_CT_eQT' ordinal='38' />
+            <column datatype='integer' name='PL_BOUND_CT_ELINKS' ordinal='39' />
+            <column datatype='integer' name='PL_QUO_CT_ELINKS' ordinal='40' />
+            <column datatype='integer' name='PL_BOUND_CT_PLRANK' ordinal='41' />
+            <column datatype='integer' name='PL_QUO_CT_PLRANK' ordinal='42' />
+            <column datatype='integer' name='PL_BOUND_CT_eQTte' ordinal='43' />
+            <column datatype='integer' name='PL_QUO_CT_eQTte' ordinal='44' />
+            <column datatype='integer' name='PL_BOUND_CT_APPLIED' ordinal='45' />
+            <column datatype='integer' name='PL_QUO_CT_APPLIED' ordinal='46' />
+            <column datatype='integer' name='PL_BOUND_CT_TRANSACTNOW' ordinal='47' />
+            <column datatype='integer' name='PL_QUO_CT_TRANSACTNOW' ordinal='48' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AW10001:no:A1:AW10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGENCY_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AGENCY_ID]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>AGENCY_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRIMARY_AGENCY_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PRIMARY_AGENCY_ID]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PRIMARY_AGENCY_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROD_ABBR</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PROD_ABBR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PROD_ABBR</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROD_LINE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PROD_LINE]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PROD_LINE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATE_ABBR</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[STATE_ABBR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>STATE_ABBR</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STAT_PROFILE_DATE_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[STAT_PROFILE_DATE_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>STAT_PROFILE_DATE_YEAR</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RETENTION_POLY_QTY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RETENTION_POLY_QTY]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>RETENTION_POLY_QTY</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POLY_INFORCE_QTY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POLY_INFORCE_QTY]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>POLY_INFORCE_QTY</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PREV_POLY_INFORCE_QTY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PREV_POLY_INFORCE_QTY]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PREV_POLY_INFORCE_QTY</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NB_WRTN_PREM_AMT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NB_WRTN_PREM_AMT]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>NB_WRTN_PREM_AMT</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WRTN_PREM_AMT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WRTN_PREM_AMT]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>WRTN_PREM_AMT</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PREV_WRTN_PREM_AMT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PREV_WRTN_PREM_AMT]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PREV_WRTN_PREM_AMT</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRD_ERND_PREM_AMT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PRD_ERND_PREM_AMT]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PRD_ERND_PREM_AMT</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRD_INCRD_LOSSES_AMT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PRD_INCRD_LOSSES_AMT]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PRD_INCRD_LOSSES_AMT</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MONTHS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MONTHS]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>MONTHS</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RETENTION_RATIO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RETENTION_RATIO]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>RETENTION_RATIO</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOSS_RATIO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LOSS_RATIO]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>LOSS_RATIO</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOSS_RATIO_3YR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LOSS_RATIO_3YR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>LOSS_RATIO_3YR</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GROWTH_RATE_3YR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GROWTH_RATE_3YR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>GROWTH_RATE_3YR</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGENCY_APPOINTMENT_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AGENCY_APPOINTMENT_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>AGENCY_APPOINTMENT_YEAR</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVE_PRODUCERS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ACTIVE_PRODUCERS]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>ACTIVE_PRODUCERS</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAX_AGE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAX_AGE]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>MAX_AGE</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MIN_AGE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MIN_AGE]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>MIN_AGE</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VENDOR_IND</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[VENDOR_IND]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>VENDOR_IND</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VENDOR</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[VENDOR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>VENDOR</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_START_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_START_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_START_YEAR</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_END_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_END_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_END_YEAR</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMMISIONS_START_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COMMISIONS_START_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>COMMISIONS_START_YEAR</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COMMISIONS_END_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COMMISIONS_END_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>COMMISIONS_END_YEAR</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CL_START_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CL_START_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>CL_START_YEAR</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CL_END_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CL_END_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>CL_END_YEAR</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVITY_NOTES_START_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ACTIVITY_NOTES_START_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>ACTIVITY_NOTES_START_YEAR</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVITY_NOTES_END_YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ACTIVITY_NOTES_END_YEAR]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>ACTIVITY_NOTES_END_YEAR</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CL_BOUND_CT_MDS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CL_BOUND_CT_MDS]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>CL_BOUND_CT_MDS</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CL_QUO_CT_MDS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CL_QUO_CT_MDS]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>CL_QUO_CT_MDS</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CL_BOUND_CT_SBZ</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CL_BOUND_CT_SBZ]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>CL_BOUND_CT_SBZ</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CL_QUO_CT_SBZ</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CL_QUO_CT_SBZ]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>CL_QUO_CT_SBZ</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CL_BOUND_CT_eQT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CL_BOUND_CT_eQT]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>CL_BOUND_CT_eQT</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CL_QUO_CT_eQT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CL_QUO_CT_eQT]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>CL_QUO_CT_eQT</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_BOUND_CT_ELINKS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_BOUND_CT_ELINKS]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_BOUND_CT_ELINKS</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_QUO_CT_ELINKS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_QUO_CT_ELINKS]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_QUO_CT_ELINKS</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_BOUND_CT_PLRANK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_BOUND_CT_PLRANK]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_BOUND_CT_PLRANK</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_QUO_CT_PLRANK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_QUO_CT_PLRANK]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_QUO_CT_PLRANK</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_BOUND_CT_eQTte</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_BOUND_CT_eQTte]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_BOUND_CT_eQTte</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_QUO_CT_eQTte</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_QUO_CT_eQTte]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_QUO_CT_eQTte</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_BOUND_CT_APPLIED</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_BOUND_CT_APPLIED]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_BOUND_CT_APPLIED</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_QUO_CT_APPLIED</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_QUO_CT_APPLIED]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_QUO_CT_APPLIED</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_BOUND_CT_TRANSACTNOW</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_BOUND_CT_TRANSACTNOW]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_BOUND_CT_TRANSACTNOW</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PL_QUO_CT_TRANSACTNOW</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PL_QUO_CT_TRANSACTNOW]</local-name>
+            <parent-name>[finalapi]</parent-name>
+            <remote-alias>PL_QUO_CT_TRANSACTNOW</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Active Producers' datatype='integer' name='[ACTIVE_PRODUCERS]' role='measure' type='quantitative' />
+      <column caption='Activity Notes End Year' datatype='integer' name='[ACTIVITY_NOTES_END_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Activity Notes Start Year' datatype='integer' name='[ACTIVITY_NOTES_START_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Agency Appointment Year' datatype='integer' name='[AGENCY_APPOINTMENT_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Agency Id' datatype='integer' name='[AGENCY_ID]' role='dimension' type='quantitative' />
+      <column caption='Cl Bound Ct Mds' datatype='integer' name='[CL_BOUND_CT_MDS]' role='measure' type='quantitative' />
+      <column caption='Cl Bound Ct Sbz' datatype='integer' name='[CL_BOUND_CT_SBZ]' role='measure' type='quantitative' />
+      <column caption='CL BOUND CT eQT' datatype='integer' name='[CL_BOUND_CT_eQT]' role='measure' type='quantitative' />
+      <column caption='Cl End Year' datatype='integer' name='[CL_END_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Cl Quo Ct Mds' datatype='integer' name='[CL_QUO_CT_MDS]' role='measure' type='quantitative' />
+      <column caption='Cl Quo Ct Sbz' datatype='integer' name='[CL_QUO_CT_SBZ]' role='measure' type='quantitative' />
+      <column caption='CL QUO CT eQT' datatype='integer' name='[CL_QUO_CT_eQT]' role='measure' type='quantitative' />
+      <column caption='Cl Start Year' datatype='integer' name='[CL_START_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Commisions End Year' datatype='integer' name='[COMMISIONS_END_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Commisions Start Year' datatype='integer' name='[COMMISIONS_START_YEAR]' role='dimension' type='quantitative' />
+      <column caption='The Retention Ratio' datatype='boolean' name='[Calculation_1763440765318844416]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='ABC = [RETENTION_POLY_QTY] / [PREV_POLY_INFORCE_QTY]' />
+      </column>
+      <column caption='Growth Rate 3Yr' datatype='real' name='[GROWTH_RATE_3YR]' role='dimension' type='quantitative' />
+      <column caption='Loss Ratio' datatype='real' name='[LOSS_RATIO]' role='measure' type='quantitative' />
+      <column caption='Loss Ratio 3Yr' datatype='real' name='[LOSS_RATIO_3YR]' role='dimension' type='quantitative' />
+      <column caption='Max Age' datatype='integer' name='[MAX_AGE]' role='measure' type='quantitative' />
+      <column caption='Min Age' datatype='integer' name='[MIN_AGE]' role='measure' type='quantitative' />
+      <column caption='Months' datatype='integer' name='[MONTHS]' role='measure' type='quantitative' />
+      <column caption='Nb Wrtn Prem Amt' datatype='real' name='[NB_WRTN_PREM_AMT]' role='measure' type='quantitative' />
+      <column caption='Pl Bound Ct Applied' datatype='integer' name='[PL_BOUND_CT_APPLIED]' role='measure' type='quantitative' />
+      <column caption='Pl Bound Ct Elinks' datatype='integer' name='[PL_BOUND_CT_ELINKS]' role='measure' type='quantitative' />
+      <column caption='Pl Bound Ct Plrank' datatype='integer' name='[PL_BOUND_CT_PLRANK]' role='measure' type='quantitative' />
+      <column caption='Pl Bound Ct Transactnow' datatype='integer' name='[PL_BOUND_CT_TRANSACTNOW]' role='measure' type='quantitative' />
+      <column caption='PL BOUND CT eQTte' datatype='integer' name='[PL_BOUND_CT_eQTte]' role='measure' type='quantitative' />
+      <column caption='Pl End Year' datatype='integer' name='[PL_END_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Pl Quo Ct Applied' datatype='integer' name='[PL_QUO_CT_APPLIED]' role='measure' type='quantitative' />
+      <column caption='Pl Quo Ct Elinks' datatype='integer' name='[PL_QUO_CT_ELINKS]' role='measure' type='quantitative' />
+      <column caption='Pl Quo Ct Plrank' datatype='integer' name='[PL_QUO_CT_PLRANK]' role='measure' type='quantitative' />
+      <column caption='Pl Quo Ct Transactnow' datatype='integer' name='[PL_QUO_CT_TRANSACTNOW]' role='measure' type='quantitative' />
+      <column caption='PL QUO CT eQTte' datatype='integer' name='[PL_QUO_CT_eQTte]' role='measure' type='quantitative' />
+      <column caption='Pl Start Year' datatype='integer' name='[PL_START_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Poly Inforce Qty' datatype='integer' name='[POLY_INFORCE_QTY]' role='measure' type='quantitative' />
+      <column caption='Prd Ernd Prem Amt' datatype='real' name='[PRD_ERND_PREM_AMT]' role='measure' type='quantitative' />
+      <column caption='Prd Incrd Losses Amt' datatype='real' name='[PRD_INCRD_LOSSES_AMT]' role='measure' type='quantitative' />
+      <column caption='Prev Poly Inforce Qty' datatype='integer' name='[PREV_POLY_INFORCE_QTY]' role='measure' type='quantitative' />
+      <column caption='Prev Wrtn Prem Amt' datatype='real' name='[PREV_WRTN_PREM_AMT]' role='measure' type='quantitative' />
+      <column caption='Primary Agency Id' datatype='integer' name='[PRIMARY_AGENCY_ID]' role='dimension' type='ordinal' />
+      <column caption='Prod Abbr' datatype='string' name='[PROD_ABBR]' role='dimension' type='nominal' />
+      <column caption='Prod Line' datatype='string' name='[PROD_LINE]' role='dimension' type='nominal' />
+      <column caption='Retention Poly Qty' datatype='integer' name='[RETENTION_POLY_QTY]' role='measure' type='quantitative' />
+      <column caption='Retention Rat' datatype='real' name='[RETENTION_RATIO]' role='measure' type='quantitative' />
+      <column caption='State Abbr' datatype='string' name='[STATE_ABBR]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Stat Profile Date Year' datatype='integer' name='[STAT_PROFILE_DATE_YEAR]' role='dimension' type='quantitative' />
+      <column caption='Vendor' datatype='string' name='[VENDOR]' role='dimension' type='nominal' />
+      <column caption='Vendor Ind' datatype='string' name='[VENDOR_IND]' role='dimension' type='nominal' />
+      <column caption='Wrtn Prem Amt' datatype='real' name='[WRTN_PREM_AMT]' role='measure' type='quantitative' />
+      <column caption='finalapi' datatype='table' name='[__tableau_internal_object_id__].[finalapi_29CF757D71FC45A79796255F813EA160]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/NEEKIT~1/AppData/Local/Temp/TableauTemp/#TableauTemp_123ek9v1yth3zh1ds73ax0jbfpih.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/27/2025 06:33:13 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>AGENCY_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AGENCY_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGENCY_ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5705</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRIMARY_AGENCY_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PRIMARY_AGENCY_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRIMARY_AGENCY_ID</remote-alias>
+              <ordinal>1</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2212</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PROD_ABBR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PROD_ABBR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PROD_ABBR</remote-alias>
+              <ordinal>2</ordinal>
+              <family>finalapi</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PROD_LINE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PROD_LINE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PROD_LINE</remote-alias>
+              <ordinal>3</ordinal>
+              <family>finalapi</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STATE_ABBR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STATE_ABBR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STATE_ABBR</remote-alias>
+              <ordinal>4</ordinal>
+              <family>finalapi</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STAT_PROFILE_DATE_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[STAT_PROFILE_DATE_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STAT_PROFILE_DATE_YEAR</remote-alias>
+              <ordinal>5</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RETENTION_POLY_QTY</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RETENTION_POLY_QTY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RETENTION_POLY_QTY</remote-alias>
+              <ordinal>6</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3510</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POLY_INFORCE_QTY</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POLY_INFORCE_QTY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POLY_INFORCE_QTY</remote-alias>
+              <ordinal>7</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4261</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PREV_POLY_INFORCE_QTY</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PREV_POLY_INFORCE_QTY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PREV_POLY_INFORCE_QTY</remote-alias>
+              <ordinal>8</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3224</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NB_WRTN_PREM_AMT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[NB_WRTN_PREM_AMT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NB_WRTN_PREM_AMT</remote-alias>
+              <ordinal>9</ordinal>
+              <family>finalapi</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40514</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WRTN_PREM_AMT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[WRTN_PREM_AMT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WRTN_PREM_AMT</remote-alias>
+              <ordinal>10</ordinal>
+              <family>finalapi</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60143</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PREV_WRTN_PREM_AMT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PREV_WRTN_PREM_AMT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PREV_WRTN_PREM_AMT</remote-alias>
+              <ordinal>11</ordinal>
+              <family>finalapi</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>59308</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRD_ERND_PREM_AMT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PRD_ERND_PREM_AMT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRD_ERND_PREM_AMT</remote-alias>
+              <ordinal>12</ordinal>
+              <family>finalapi</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120098</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PRD_INCRD_LOSSES_AMT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PRD_INCRD_LOSSES_AMT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PRD_INCRD_LOSSES_AMT</remote-alias>
+              <ordinal>13</ordinal>
+              <family>finalapi</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36111</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MONTHS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MONTHS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MONTHS</remote-alias>
+              <ordinal>14</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RETENTION_RATIO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RETENTION_RATIO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RETENTION_RATIO</remote-alias>
+              <ordinal>15</ordinal>
+              <family>finalapi</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10579</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LOSS_RATIO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[LOSS_RATIO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LOSS_RATIO</remote-alias>
+              <ordinal>16</ordinal>
+              <family>finalapi</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>45899</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LOSS_RATIO_3YR</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[LOSS_RATIO_3YR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LOSS_RATIO_3YR</remote-alias>
+              <ordinal>17</ordinal>
+              <family>finalapi</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36460</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GROWTH_RATE_3YR</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[GROWTH_RATE_3YR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GROWTH_RATE_3YR</remote-alias>
+              <ordinal>18</ordinal>
+              <family>finalapi</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30857</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AGENCY_APPOINTMENT_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AGENCY_APPOINTMENT_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGENCY_APPOINTMENT_YEAR</remote-alias>
+              <ordinal>19</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>128</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ACTIVE_PRODUCERS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ACTIVE_PRODUCERS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ACTIVE_PRODUCERS</remote-alias>
+              <ordinal>20</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>217</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MAX_AGE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MAX_AGE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MAX_AGE</remote-alias>
+              <ordinal>21</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>76</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MIN_AGE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MIN_AGE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MIN_AGE</remote-alias>
+              <ordinal>22</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>VENDOR_IND</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[VENDOR_IND]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>VENDOR_IND</remote-alias>
+              <ordinal>23</ordinal>
+              <family>finalapi</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>VENDOR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[VENDOR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>VENDOR</remote-alias>
+              <ordinal>24</ordinal>
+              <family>finalapi</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_START_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_START_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_START_YEAR</remote-alias>
+              <ordinal>25</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_END_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_END_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_END_YEAR</remote-alias>
+              <ordinal>26</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>COMMISIONS_START_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[COMMISIONS_START_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>COMMISIONS_START_YEAR</remote-alias>
+              <ordinal>27</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>COMMISIONS_END_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[COMMISIONS_END_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>COMMISIONS_END_YEAR</remote-alias>
+              <ordinal>28</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CL_START_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CL_START_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CL_START_YEAR</remote-alias>
+              <ordinal>29</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CL_END_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CL_END_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CL_END_YEAR</remote-alias>
+              <ordinal>30</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ACTIVITY_NOTES_START_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ACTIVITY_NOTES_START_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ACTIVITY_NOTES_START_YEAR</remote-alias>
+              <ordinal>31</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ACTIVITY_NOTES_END_YEAR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ACTIVITY_NOTES_END_YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ACTIVITY_NOTES_END_YEAR</remote-alias>
+              <ordinal>32</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CL_BOUND_CT_MDS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CL_BOUND_CT_MDS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CL_BOUND_CT_MDS</remote-alias>
+              <ordinal>33</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CL_QUO_CT_MDS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CL_QUO_CT_MDS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CL_QUO_CT_MDS</remote-alias>
+              <ordinal>34</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CL_BOUND_CT_SBZ</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CL_BOUND_CT_SBZ]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CL_BOUND_CT_SBZ</remote-alias>
+              <ordinal>35</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CL_QUO_CT_SBZ</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CL_QUO_CT_SBZ]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CL_QUO_CT_SBZ</remote-alias>
+              <ordinal>36</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CL_BOUND_CT_eQT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CL_BOUND_CT_eQT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CL_BOUND_CT_eQT</remote-alias>
+              <ordinal>37</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CL_QUO_CT_eQT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CL_QUO_CT_eQT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CL_QUO_CT_eQT</remote-alias>
+              <ordinal>38</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_BOUND_CT_ELINKS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_BOUND_CT_ELINKS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_BOUND_CT_ELINKS</remote-alias>
+              <ordinal>39</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_QUO_CT_ELINKS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_QUO_CT_ELINKS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_QUO_CT_ELINKS</remote-alias>
+              <ordinal>40</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>197</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_BOUND_CT_PLRANK</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_BOUND_CT_PLRANK]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_BOUND_CT_PLRANK</remote-alias>
+              <ordinal>41</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>159</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_QUO_CT_PLRANK</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_QUO_CT_PLRANK]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_QUO_CT_PLRANK</remote-alias>
+              <ordinal>42</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>647</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_BOUND_CT_eQTte</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_BOUND_CT_eQTte]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_BOUND_CT_eQTte</remote-alias>
+              <ordinal>43</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>467</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_QUO_CT_eQTte</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_QUO_CT_eQTte]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_QUO_CT_eQTte</remote-alias>
+              <ordinal>44</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1233</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_BOUND_CT_APPLIED</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_BOUND_CT_APPLIED]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_BOUND_CT_APPLIED</remote-alias>
+              <ordinal>45</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_QUO_CT_APPLIED</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_QUO_CT_APPLIED]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_QUO_CT_APPLIED</remote-alias>
+              <ordinal>46</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>110</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_BOUND_CT_TRANSACTNOW</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_BOUND_CT_TRANSACTNOW]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_BOUND_CT_TRANSACTNOW</remote-alias>
+              <ordinal>47</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PL_QUO_CT_TRANSACTNOW</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PL_QUO_CT_TRANSACTNOW]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PL_QUO_CT_TRANSACTNOW</remote-alias>
+              <ordinal>48</ordinal>
+              <family>finalapi</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[finalapi_29CF757D71FC45A79796255F813EA160]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='finalapi' id='finalapi_29CF757D71FC45A79796255F813EA160'>
+            <properties context=''>
+              <relation connection='excel-direct.00u47k40z2dg1215wapnb1xppc77' name='finalapi' table='[finalapi$]' type='table'>
+                <columns gridOrigin='A1:AW10001:no:A1:AW10001:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='AGENCY_ID' ordinal='0' />
+                  <column datatype='integer' name='PRIMARY_AGENCY_ID' ordinal='1' />
+                  <column datatype='string' name='PROD_ABBR' ordinal='2' />
+                  <column datatype='string' name='PROD_LINE' ordinal='3' />
+                  <column datatype='string' name='STATE_ABBR' ordinal='4' />
+                  <column datatype='integer' name='STAT_PROFILE_DATE_YEAR' ordinal='5' />
+                  <column datatype='integer' name='RETENTION_POLY_QTY' ordinal='6' />
+                  <column datatype='integer' name='POLY_INFORCE_QTY' ordinal='7' />
+                  <column datatype='integer' name='PREV_POLY_INFORCE_QTY' ordinal='8' />
+                  <column datatype='real' name='NB_WRTN_PREM_AMT' ordinal='9' />
+                  <column datatype='real' name='WRTN_PREM_AMT' ordinal='10' />
+                  <column datatype='real' name='PREV_WRTN_PREM_AMT' ordinal='11' />
+                  <column datatype='real' name='PRD_ERND_PREM_AMT' ordinal='12' />
+                  <column datatype='real' name='PRD_INCRD_LOSSES_AMT' ordinal='13' />
+                  <column datatype='integer' name='MONTHS' ordinal='14' />
+                  <column datatype='real' name='RETENTION_RATIO' ordinal='15' />
+                  <column datatype='real' name='LOSS_RATIO' ordinal='16' />
+                  <column datatype='real' name='LOSS_RATIO_3YR' ordinal='17' />
+                  <column datatype='real' name='GROWTH_RATE_3YR' ordinal='18' />
+                  <column datatype='integer' name='AGENCY_APPOINTMENT_YEAR' ordinal='19' />
+                  <column datatype='integer' name='ACTIVE_PRODUCERS' ordinal='20' />
+                  <column datatype='integer' name='MAX_AGE' ordinal='21' />
+                  <column datatype='integer' name='MIN_AGE' ordinal='22' />
+                  <column datatype='string' name='VENDOR_IND' ordinal='23' />
+                  <column datatype='string' name='VENDOR' ordinal='24' />
+                  <column datatype='integer' name='PL_START_YEAR' ordinal='25' />
+                  <column datatype='integer' name='PL_END_YEAR' ordinal='26' />
+                  <column datatype='integer' name='COMMISIONS_START_YEAR' ordinal='27' />
+                  <column datatype='integer' name='COMMISIONS_END_YEAR' ordinal='28' />
+                  <column datatype='integer' name='CL_START_YEAR' ordinal='29' />
+                  <column datatype='integer' name='CL_END_YEAR' ordinal='30' />
+                  <column datatype='integer' name='ACTIVITY_NOTES_START_YEAR' ordinal='31' />
+                  <column datatype='integer' name='ACTIVITY_NOTES_END_YEAR' ordinal='32' />
+                  <column datatype='integer' name='CL_BOUND_CT_MDS' ordinal='33' />
+                  <column datatype='integer' name='CL_QUO_CT_MDS' ordinal='34' />
+                  <column datatype='integer' name='CL_BOUND_CT_SBZ' ordinal='35' />
+                  <column datatype='integer' name='CL_QUO_CT_SBZ' ordinal='36' />
+                  <column datatype='integer' name='CL_BOUND_CT_eQT' ordinal='37' />
+                  <column datatype='integer' name='CL_QUO_CT_eQT' ordinal='38' />
+                  <column datatype='integer' name='PL_BOUND_CT_ELINKS' ordinal='39' />
+                  <column datatype='integer' name='PL_QUO_CT_ELINKS' ordinal='40' />
+                  <column datatype='integer' name='PL_BOUND_CT_PLRANK' ordinal='41' />
+                  <column datatype='integer' name='PL_QUO_CT_PLRANK' ordinal='42' />
+                  <column datatype='integer' name='PL_BOUND_CT_eQTte' ordinal='43' />
+                  <column datatype='integer' name='PL_QUO_CT_eQTte' ordinal='44' />
+                  <column datatype='integer' name='PL_BOUND_CT_APPLIED' ordinal='45' />
+                  <column datatype='integer' name='PL_QUO_CT_APPLIED' ordinal='46' />
+                  <column datatype='integer' name='PL_BOUND_CT_TRANSACTNOW' ordinal='47' />
+                  <column datatype='integer' name='PL_QUO_CT_TRANSACTNOW' ordinal='48' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='finalapi (Insurance_Dataset)' name='federated.12kr0yl0p4qctj1190d1v0q4m1c9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12kr0yl0p4qctj1190d1v0q4m1c9'>
+            <column caption='Agency Id' datatype='integer' name='[AGENCY_ID]' role='dimension' type='quantitative' />
+            <column caption='Prod Line' datatype='string' name='[PROD_LINE]' role='dimension' type='nominal' />
+            <column caption='Retention Rat' datatype='real' name='[RETENTION_RATIO]' role='measure' type='quantitative' />
+            <column caption='State Abbr' datatype='string' name='[STATE_ABBR]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Wrtn Prem Amt' datatype='real' name='[WRTN_PREM_AMT]' role='measure' type='quantitative' />
+            <column-instance column='[AGENCY_ID]' derivation='None' name='[none:AGENCY_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[PROD_LINE]' derivation='None' name='[none:PROD_LINE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STATE_ABBR]' derivation='None' name='[none:STATE_ABBR:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RETENTION_RATIO]' derivation='Sum' name='[sum:RETENTION_RATIO:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[WRTN_PREM_AMT]' derivation='Sum' name='[sum:WRTN_PREM_AMT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:PROD_LINE:nk]'>
+            <groupfilter function='member' level='[none:PROD_LINE:nk]' member='&quot;PL&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:STATE_ABBR:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:STATE_ABBR:nk]' member='&quot;IN&quot;' />
+              <groupfilter function='member' level='[none:STATE_ABBR:nk]' member='&quot;KY&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:STATE_ABBR:nk]</column>
+            <column>[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:PROD_LINE:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='701' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[sum:WRTN_PREM_AMT:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[sum:WRTN_PREM_AMT:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[sum:WRTN_PREM_AMT:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[sum:RETENTION_RATIO:qk]' />
+              <size column='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[sum:WRTN_PREM_AMT:qk]' />
+              <lod column='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:AGENCY_ID:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:STATE_ABBR:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{FA9DC4B5-B079-4498-ADF3-13D71B96F890}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='finalapi (Insurance_Dataset)' name='federated.12kr0yl0p4qctj1190d1v0q4m1c9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12kr0yl0p4qctj1190d1v0q4m1c9'>
+            <column caption='Agency Id' datatype='integer' name='[AGENCY_ID]' role='dimension' type='quantitative' />
+            <column caption='Prod Line' datatype='string' name='[PROD_LINE]' role='dimension' type='nominal' />
+            <column caption='State Abbr' datatype='string' name='[STATE_ABBR]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Stat Profile Date Year' datatype='integer' name='[STAT_PROFILE_DATE_YEAR]' role='dimension' type='quantitative' />
+            <column caption='Wrtn Prem Amt' datatype='real' name='[WRTN_PREM_AMT]' role='measure' type='quantitative' />
+            <column-instance column='[AGENCY_ID]' derivation='None' name='[none:AGENCY_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[PROD_LINE]' derivation='None' name='[none:PROD_LINE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STATE_ABBR]' derivation='None' name='[none:STATE_ABBR:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STAT_PROFILE_DATE_YEAR]' derivation='None' name='[none:STAT_PROFILE_DATE_YEAR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[WRTN_PREM_AMT]' derivation='Sum' name='[pcdf:sum:WRTN_PREM_AMT:qk]' pivot='key' type='quantitative'>
+              <table-calc diff-options='Relative' ordering-type='Rows' type='PctDiff'>
+                <address>
+                  <value>-1</value>
+                </address>
+              </table-calc>
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:PROD_LINE:nk]'>
+            <groupfilter function='member' level='[none:PROD_LINE:nk]' member='&quot;PL&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:STATE_ABBR:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:STATE_ABBR:nk]' member='&quot;IN&quot;' />
+              <groupfilter function='member' level='[none:STATE_ABBR:nk]' member='&quot;KY&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:STATE_ABBR:nk]</column>
+            <column>[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:PROD_LINE:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='794' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[pcdf:sum:WRTN_PREM_AMT:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[pcdf:sum:WRTN_PREM_AMT:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[pcdf:sum:WRTN_PREM_AMT:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:STATE_ABBR:nk]' />
+              <lod column='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:AGENCY_ID:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[pcdf:sum:WRTN_PREM_AMT:qk]</rows>
+        <cols>[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:STAT_PROFILE_DATE_YEAR:qk]</cols>
+      </table>
+      <simple-id uuid='{3AB22FAD-B605-45B3-8B34-721829D01E6E}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='finalapi (Insurance_Dataset)' name='federated.12kr0yl0p4qctj1190d1v0q4m1c9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12kr0yl0p4qctj1190d1v0q4m1c9'>
+            <column caption='Months' datatype='integer' name='[MONTHS]' role='measure' type='quantitative' />
+            <column caption='Wrtn Prem Amt' datatype='real' name='[WRTN_PREM_AMT]' role='measure' type='quantitative' />
+            <column-instance column='[WRTN_PREM_AMT]' derivation='Sum' name='[cum:sum:WRTN_PREM_AMT:qk:1]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Sum' ordering-field='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:MONTHS:qk]' ordering-type='Field' type='CumTotal' />
+            </column-instance>
+            <column-instance column='[MONTHS]' derivation='None' name='[none:MONTHS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[cum:sum:WRTN_PREM_AMT:qk:1]</rows>
+        <cols>[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:MONTHS:qk]</cols>
+      </table>
+      <simple-id uuid='{8B3EBF16-7AD5-405A-9FF1-6BE24A036454}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[sum:RETENTION_RATIO:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AF0195E8-168D-4BC4-8B54-BF23D4F1E9FB}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.12kr0yl0p4qctj1190d1v0q4m1c9].[none:STATE_ABBR:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E129B727-4046-4E3C-B092-80DA9C41CC45}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1502A73B-6EB1-431D-BF19-63A3E6319387}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
